@@ -1,0 +1,133 @@
+/* GENERALI */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+body{
+  background-image: url(img/sfondo.png);
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+/* ______________________________________________ */
+
+/* HEADER */
+header img{
+  width: 150px;
+  vertical-align: middle;
+}
+header h1{
+  font-size: 40px;
+  font-weight: 600;
+  display: inline;
+  line-height: 150px;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+hr{
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+header input{
+  font-size: 20px;
+  padding:5px 30px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.44);
+  border-radius: 10px;
+  border: none;
+}
+
+.pulsante{
+  background-color: rgb(16, 80, 224);
+}
+
+.pulsante:hover{
+  background-color: green;
+  width: 500px;
+}
+
+::placeholder{
+  color: white;
+}
+
+.notifica{
+  line-height: 90px;
+  vertical-align: middle;
+}
+
+.notifica span{
+  color: red;
+  font-size: 30px;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* ______________________________________________ */
+
+/* CORPO */
+main{
+  margin: 20px 0;
+}
+
+.rowunread{
+  height: 30px;
+  padding: 0 15px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.rowread{
+  height: 30px;
+  padding: 0 15px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.check{
+  width: 20px;
+  height: 20px;
+  vertical-align:middle;
+  margin-right: 5px;
+}
+
+.messaggio{
+  color: rgb(16, 80, 224);
+  display: inline;
+  vertical-align: middle;
+}
+
+.oggetto{
+  color: black;
+  font-weight: 900;
+}
+
+.testomail{
+  color: grey;
+}
+/* ______________________________________________ */
+
+/* FOOTER */
+
+footer{
+  text-align: center;
+}
+
+footer h3{
+  display: inline;
+  font-size: 30px;
+}
+
+.powered{
+  margin: 15px 0px;
+}
